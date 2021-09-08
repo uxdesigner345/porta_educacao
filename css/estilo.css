@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+@import url('https://fonts.googleapis.com/css?family=Wire+One');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	
+}
+.banner{ 
+	margin-top: -20px; 
+	min-height: 60vh;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: cover;/*posicionando a imagem com 100% da tela*/
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -ms-background-size:cover;
+  -o-background-size:cover;
+  background-image: url('../img/notebook-person-man-laptops.jpg');
+  /*object-fit: scale-down;*/
+  /*object-fit: contain;*/
+  /*object-fit: cover;*/ 
+
+}
+.menu{
+	font-family: 'Marvel', sans-serif;
+}
+.navbar-nav li a{
+	font-size: 17px;
+}
+#btncad{
+	margin-top: 10px;
+
+}
+#btnlog{
+	margin-top: 10px;
+	margin-left: 3px;
+	
+}
+.text_banner p{
+	color: #fff;
+	font-family: 'Marvel', sans-serif;
+	font-size: 40px;
+	margin-top: 30px;
+	text-align: center;
+}
+.text_banner h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	margin-top: 30px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.form-signin input,option{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:17px;
+	color:#000000;
+	transition: 0.3s;
+}
+.form-signin input:hover{
+	background-color:#A1B6D4;
+	color:#fff;
+}
+#sub_titulos{
+	margin-top: 20px;
+}
+.cursos{
+	padding: 10px;
+}
+.curso{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:20px;
+	color:#fff;
+	
+}
+.modal-body{
+	background-color: #325FA2;
+	border: none;
+}
+.collapse ul li{
+    list-style: none;
+}  
+.container h2:hover{
+	background-color: rgba(50, 95, 162, 0.7);
+}
+
+.btn_ensino{
+	text-shadow: 1px 1px 1px #fff;
+	border: solid #fff 1px;
+	padding: 10px;
+	color: #000000;
+	background-color: rgba(152, 224, 207,0.4);
+}
+.jumbotron{
+	background-color: #e9ecef;
+}
+.jumbotron p{
+	color: #000000;
+}
+.panel-body{
+	background-color: #e9ecef;
+}
+#cor1{
+	height: 1130px;
+	background-color: #bde0fe;
+
+}
+#cor1 h3{
+	margin-top: 5px;
+	font-family: 'Anton', sans-serif;
+	color: #fff;
+}
+#cor1 p{
+	font-family: 'Marvel', sans-serif;
+	font-size: 20px;
+	
+}
+
+#cor2{
+	height: auto;
+	background-color: #a2d2ff;
+	padding: 20px;
+}
+#cor2 h3{
+	margin-top: 5px;
+	font-family: 'Anton', sans-serif;
+	color: #fff;
+}
+#cor2 p,h4,h5{
+	font-family: 'Marvel', sans-serif;
+	font-size: 20px;
+	
+}
+.valor{
+ 
+	background-color:#669bbc ;
+
+}
+.valor h1{
+	font-family: 'Poppins', sans-serif;
+    color: #325FA2;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 5px;
+}
+.formas{
+	height: 300px;
+}
+.formas h2{
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	color:#fff;
+}
+.formas p{
+	font-family: 'Wire One', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #000000;
+    color:#fff;
+}
+.formas a{
+	text-decoration: none;
+	transition: 0.6s
+}
+.formas a:hover{
+	padding: 20px;
+	background-color: rgba(152, 224, 207,0.4);
+}
+
+.footer{
+	
+	height: auto;
+	background-color: #325FA2;
+}
+.footer h3{
+	color: #fff;
+	font-family: 'Anton', sans-serif;
+	background-color: rgba(152, 224, 207,0.4);
+	padding: 10px;
+	text-shadow: 1px 1px 1px #002642;
+}
+.footer li,p{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	padding-left: 10px;
+}
+.footer li{
+	list-style: none;
+	text-align: center;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	transition: 0.5s;
+}
+.footer a:hover{
+	text-decoration: none;
+	color: #000000;
+	background-color: #fff;
+	padding: 10px; 
+	font-size: 15px;
+}
+#rede{
+	margin-top: 10px;
+}
+#sandro{
+	text-align: center;
+	font-size: 20px;
+}

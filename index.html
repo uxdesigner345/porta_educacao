@@ -1,0 +1,386 @@
+	  <!DOCTYPE html>
+	  <html lang="pt-br">
+	  <head>
+	  	<meta charset="utf-8">
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<title>Portal educação</title>
+	  	<link href="Hover-master/css/hover.css" rel="stylesheet" media="all">
+	  	<link href="css/bootstrap.min.css" rel="stylesheet">
+	  	<link href="css/estilo.css" rel="stylesheet">
+	  </head>
+	  <body>
+
+	  	<!-- Static navbar -->
+	  	<nav class="navbar navbar-default navbar-static-top">
+	  		<div class="container menu">
+	  			<div class="navbar-header">
+	  				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	  					<span class="sr-only"></span>
+	  					<span class="icon-bar"></span>
+	  					<span class="icon-bar"></span>
+	  					<span class="icon-bar"></span>
+	  				</button>
+	  				<a class="navbar-brand" href="#" title="INICIO DA PÁGINA"><span class="glyphicon glyphicon-education
+	  					" aria-hidden="true"></span>PORTAL EDUCAÇÃO</a>
+
+	  				</div>
+	  				<div id="navbar" class="navbar-collapse collapse">
+	  					<ul class="nav navbar-nav">
+	  						<li class="active"><a href="#" title="INICIO DA PÁGINA">Inicio</a></li>
+	  						<li><a href="#about"  title="TELEFONES">Contato</a></li>
+	  						<li><a href="#contact"  title="MATERIAL DO ALUNO">Material Didático</a></li>
+	  						<li class="dropdown">
+	  							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  title="NOSSAS UNIDADES">Instituição<span class="caret"></span></a>
+	  							<ul class="dropdown-menu">
+	  								<li><a href="#">Rio de Janeiro</a></li>
+	  								<li><a href="#">Duque De Caxias</a></li>
+	  								<li><a href="#">São João</a></li>
+	  								<li><a href="#">Niterói</a></li>
+
+	  							</ul>
+	  						</li>
+	  					</ul>
+	  					<ul class="nav navbar-nav navbar-right">
+
+	  						<li>
+	  							<button id="btncad" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalcad">
+	  								Cadastre-se
+	  							</button>
+	  						</li>
+
+	  						<li>
+	  							<button id="btnlog" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModallog">
+	  								Sou Aluno
+	  							</button>
+	  						</li>
+	  					</ul>
+	  				</div><!--/.nav-collapse -->
+	  			</div>
+	  		</nav>
+
+
+	  		<div class="container-fluid">
+	  			<div class="col-md-12 banner">
+	  				<div class="row">
+	  					<div class="col-md-12 text_banner">
+	  						<div class="container">
+	  							<h1 id="titulo" class="text-center">PORTAL DE EDUCAÇÃO</h1>
+	  							<p>A graduação a distância com qualidade e eficiência</p>
+
+	  							<div class="col-md-8 col-md-offset-2 text_banner">
+	  								<h2 class="btn_ensino text-center">ENSINO TÉCNICO</h2><br>
+	  								<h2 class="btn_ensino text-center">ENSINO SUPERIOR</h2><br>
+	  								<h2 class="btn_ensino text-center">PÓS GRADUAÇÃO</h2>
+	  							</div>
+	  						</div> 
+	  					</div>   
+	  				</div>
+	  				<div class="modal fade" id="myModalcad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  					<div class="modal-dialog" role="document">
+	  						<div class="modal-content">
+	  							<div class="modal-header">
+	  								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	  								<h4 class="modal-title text-center" id="myModalLabel">Cadastro de Calouro</h4>
+	  							</div>
+	  							<div class="modal-body">
+	  								<div class="container">
+	  									<div class="col-md-5">
+	  										<div class="row">
+
+	  											<form class="form-signin">
+
+	  												<label for="inputEmail" class="sr-only" >nome</label>
+	  												<input type="text" id="" class="form-control" placeholder="Nome Completo" required autofocus><br>
+	  												<label for="inputPassword" class="sr-only">endreço</label>
+	  												<input type="nome" id="" class="form-control" placeholder="Endereço" required autofocus><br>
+	  												<label for="inputEmail" class="sr-only">cpf</label>
+	  												<input type="text" id="inputEmail" class="form-control"  placeholder="Cpf" required><br>
+	  												<label for="inputEmail" class="sr-only">cep</label>
+	  												<input type="nome" id="inputEmail" class="form-control" placeholder="Cep" required><br>
+	  												<label for="inputEmail" class="sr-only">Email</label>
+	  												<input type="nome" id="" class="form-control" placeholder="Email" required><br>
+	  												<div class="form-group">
+	  													<label  class="curso" for="tipo">Curso Desejável</label>
+	  													<select class="form-control">
+	  														<optgroup class="curso" label="Técnico">	
+	  															<option value="">TÉCNICO EM INFORMÁTICA</option>
+	  															<option value="">TÉCNICO EM ENFERMAGEM</option>
+	  															<option value="">TÉCNICO EM CONSTRUÇÃO CIVIL</option>
+	  															<option value="">TÉCNICO EM SEGURANÇA DO TRABALHO</option>
+	  															<option value="">TÉCNICO EM MASSOTERAPIA</option>
+	  															<option value="">TÉCNICO EM DESIGNER DE GAMES</option>
+	  															<option value="">TÉCNICO EM PROGRAMAÇÃO</option>
+	  															<option value="">SISTEMA DA INFORMAÇÃO</option>
+	  														</optgroup>
+
+	  														<optgroup class="curso" label="Graduação">	
+	  															<option value="">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</option>
+	  															<option value="">ENGENHARIA DE SOFTWARE</option>
+	  															<option value="">GESTÃO EM TI</option>
+	  															<option value="">WEB DESIGNER</option>
+	  															<option value="">ENGENHARIA</option>
+	  															<option value="">DIREITO</option>
+	  															<option value="">MEDICINA</option>
+	  															<option value="">GASTRÔNOMIA</option>
+	  															<option value="">ENGENHARIA CIVIL</option>
+	  															<option value="">FARMÁCIA</option>
+	  															<option value="">NUTRIÇÃO</option>
+	  														</optgroup>	
+
+	  														<optgroup class="curso" label="Pós-Graduação">	
+	  															<option value="">ADMINISTRAÇÃO EM BANCO DE DADOS</option>
+	  															<option value="">ENGENHARIA CIVIL</option>
+	  															<option value="">COMUNICAÇÃO</option>
+	  															<option value="">MÍDIAS DIGITAIS</option>
+	  															<option value="">GESTÃO DE MARKTING</option>
+	  															<option value="">FILOSOFIA</option>
+	  															<option value="">MEDICINA</option>
+	  															<option value="">SISTEMA DA INFORMAÇÃO</option>
+	  															<option value="">SISTEMA DE HARDWARE</option>
+	  															<option value="">SISTEMA DE SOFTWARE</option>
+	  														</optgroup>
+	  													</select>
+	  												</div>
+
+	  												<button class="btn btn-sm btn-primary" type="submit">Cadastrar</button>
+	  											</form>
+
+	  										</div> <!-- /container -->
+
+	  									</div>
+
+	  								</div>
+	  							</div>
+
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  			<div class="col-md-12 cursos">
+	  				<div class="row">
+	  					<div id="cor1" class="col-md-6">
+	  						<h3 id="sub_titulos" class="text-center"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> | Manual do Aluno</h3>
+	  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia doloribus molestias dolores commodi aperiam soluta itaque nisi natus iure blanditiis totam laudantium earum magnam, ea, numquam distinctio, asperiores molestiae praesentium.</p>
+	  						<div class="jumbotron">
+	  							<p>  CARO ALUNO,FIQUE ATENTO AO SEMESTRE VIGENTE!</p>
+	  							<button id="btnlog" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModallog">ENTRAR</button>
+	  						</div>
+	  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia doloribus molestias dolores commodi aperiam soluta itaque nisi natus iure blanditiis totam laudantium earum magnam, ea, numquam distinctio, asperiores molestiae praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia doloribus molestias dolores commodi aperiam soluta itaque nisi natus iure blanditiis totam laudantium earum magnam, ea, numquam distinctio, asperiores molestiae praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia doloribus molestias dolores commodi aperiam soluta itaque nisi natus iure blanditiis totam laudantium earum magnam, ea, numquam distinctio, asperiores molestiae praesentium.</p>
+	  						<h3 id="sub_titulos" class="text-center"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> | Construa sua carreira</h3>
+
+	  						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  							<div class="panel panel-default">
+	  								<div class="panel-heading" role="tab" id="headingOne">
+	  									<h4 class="panel-title">
+	  										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	  											CURSOS TÉCNICOS
+	  										</a>
+	  									</h4>
+	  								</div>
+	  								<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+	  									<div class="panel-body">
+	  										<ul>
+	  											<li>TÉCNICO EM INFORMÁTICA</li>
+	  											<li>TÉCNICO EM ENFERMAGEM</li>
+	  											<li>TÉCNICO EM CONSTRUÇÃO CIVIL</li>
+	  											<li>TÉCNICO EM SEGURANÇA DO TRABALHO</li>
+	  											<li>TÉCNICO EM MASSOTERAPIA</li>
+	  											<li>TÉCNICO EM DESIGNER DE GAMES</li>
+	  											<li>TÉCNICO EM PROGRAMAÇÃO</li>
+	  										</ul>
+	  									</div>
+	  								</div>
+	  							</div>
+	  							<div class="panel panel-default">
+	  								<div class="panel-heading" role="tab" id="headingTwo">
+	  									<h4 class="panel-title">
+	  										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	  											GRADUAÇÃO
+	  										</a>
+	  									</h4>
+	  								</div>
+	  								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+	  									<div class="panel-body">
+	  										<ul>
+	  											<li>ANÁLISE E DESENVOLVIMENTO EM SISTEMAS</li>
+	  											<li>ENGENHARIA</li>
+	  											<li>GESTÃO EM TI</li>
+	  											<li>DIREITO</li>
+	  											<li>MEDICINA</li>
+	  											<li>WEB DESIGNER</li>
+	  											<li>GASTRÔNOMIA</li>
+	  											<li>ENGENHARIA CIVIL</li>
+	  											<li>FARMÁCIA</li>
+	  											<li>ADMINISTRAÇÃO</li>
+	  											<li>NUTRIÇÃO</li>
+	  										</ul>
+	  									</div>
+	  								</div>
+	  							</div>
+	  							<div class="panel panel-default">
+	  								<div class="panel-heading" role="tab" id="headingThree">
+	  									<h4 class="panel-title">
+	  										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	  											PÓS GRADUAÇÃO
+	  										</a>
+	  									</h4>
+	  								</div>
+	  								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+	  									<div class="panel-body">
+	  										<ul>
+	  											<li>ADMINISTRAÇÃO EM BANCO DE DADOS</li>
+	  											<li>ENGENHARIA CIVIL</li>
+	  											<li>COMUNICAÇÃO</li>
+	  											<li>MÍDIAS DIGITAIS</li>
+	  											<li>GESTÃO DE MARKTING</li>
+	  											<li>FILOSOFIA</li>
+	  											<li>SISTEMA DA INFORMAÇÃO</li>
+	  											<li>MEDICINA</li>
+	  											<li>SISTEMA DE HARDWARE</li>
+	  											<li>SISTEMA DE SOFTWARE</li>
+	  										</ul>
+	  									</div>
+	  								</div>
+	  							</div>
+	  						</div>
+	  					</div>
+
+
+	  					<!--aluno-->
+
+	  					<!--progresso-->
+	  					<div id="cor2" class="col-md-6">
+	  						<h3 id="sub_titulos" class="text-center"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> | venha nos conhecer</h3>
+	  						<h4 class="text-center">Nossa rede institucional</h4>
+	  						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat recusandae perferendis excepturi doloribus, quaerat magnam culpa accusamus dignissimos laudantium adipisci natus dolore quisquam. Non eius natus ea, quidem nostrum sunt.</p>
+	  						<img class="img-responsive" src="img/portal_edu2.jpg" alt="">
+	  						<h3 id="sub_titulos" class="text-center"><span class="glyphicon glyphicon-estrela-vazia
+
+	  							" aria-hidden="true"></span> | Primeiro lugar no enem</h3>
+
+	  							<h4  class="text-center">Percentual de aprovação de nossos aluno nos ultímos anos</h4>
+	  							<h5>enem 2017...</h5>
+	  							<div class="progress">
+	  								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuemin="0" arial-valuemax="100" style="width:50%"><span>340 alunos aprovados...</span>
+	  								</div>   
+	  							</div>
+	  							<h5>enem 2018...</h5>
+	  							<div class="progress">
+	  								<div class="progress-bar progress-bar-info " role="progressbar" aria-valuemin="0" arial-valuemax="100" style="width:65%"><span>567 alunos aprovados...</span>
+	  								</div>   
+	  							</div>
+	  							<h5>enem 2019...</h5>
+	  							<div class="progress">
+	  								<div class="progress-bar progress-bar-info " role="progressbar" aria-valuemin="0" arial-valuemax="100" style="width:87%"><span>798 alunos aprovados...</span>
+	  								</div>   
+	  							</div>
+	  							<h5>enem 2020...</h5>
+	  							<div class="progress">
+	  								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" arial-valuemax="100" style="width:90%"><span>980 alunos aprovados...</span>
+	  								</div>   
+	  							</div>
+
+	  						</div>
+
+	  					</div>
+	  				</div>
+	  				<!--valores-->
+	  				<div class="col-md-12 valor">
+	  					<div id="rodape" class="row">
+	  						<div class="col-md-8 col-md-offset-2 valor">
+	  							<h1 class="text-center">Formas De Ingresso</h1>
+	  							<div class="col-md-4 formas">
+	  								<div class="row">
+	  									<h2 class="text-center">Enem</h2>
+	  									<p class="text-center">Consulte suas notas</p>
+	  									<h3 class="text-center"><a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem" title="ENEM.COM">ENEM 2019</a></h3>
+	  								</div>
+	  							</div>
+	  							<div class="col-md-4 formas">
+	  								<div class="row">
+	  									<h2 class="text-center">Vestigular</h2>
+	  									<p class="text-center">Veja a data de nossas provas</p>
+	  									<h3 class="text-center"><a href="#" title="MARCAÇÃO DE PROVA">SAIBA MAIS</a></h3>
+	  								</div>
+	  							</div>
+	  							<div class="col-md-4 formas">
+	  								<div class="row">
+	  									<h2 class="text-center">Financiamento</h2>
+	  									<p class="text-center">consulte os meios de pagamento</p>
+	  									<h3 class="text-center"><a href="#" title=" MEIOS DE PAGAMENTO">ACESSE</a></h3>
+	  								</div>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<!--rodape-->
+	  				<div class="col-md-12 footer">
+	  					<div class="row">
+	  						<div class="col-md-4">
+	  							<div class="row">
+	  								<h3 class="text-center"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> | ENDEREÇO</h3>
+	  								<ul>
+	  									<li>Av.Carvalho 1299</li>
+	  									<li>Rio de Janeiro</li>
+	  									<li>Tel:.23920232939</li>
+	  									<li>Email:portal@view.com</li>
+
+	  								</ul>
+	  							</div>
+	  						</div>
+	  						<div class="col-md-4">
+	  							<div class="row">
+	  								<h3 class="text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> | QUEM SOMOS</h3>
+	  								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium at exercitationem quis, odio placeat corporis id nesciunt, praesentium ipsa ipsum beatae inventore dignissimos, assumenda itaque quaerat, dolor quos optio distinctio!</p>
+	  							</div>
+	  						</div>
+	  						<div class="col-md-4">
+	  							<div class="row">
+	  								<h3 class="text-center"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> | MISSÃO</h3>
+	  								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magnam adipisci necessitatibus quas sequi, illo cum ab quos accusantium. Maiores facilis vitae nesciunt cum sed necessitatibus. Reiciendis voluptatibus impedit odio.</p>
+
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  			<div id="rede" class=" text-center col-md-12">
+	  				<a href="#"><img src="img/face.png"></a>
+	  				<a href="#"><img src="img/insta.png"></a>
+	  			</div>
+	  			<div id="sandro" class="col-md-12"><a href="https://sandrodesigner.jimdo.com" target="_blank" title="Portifólio">Desenvolvedor Sandro Gomes</a>
+	  			</div>
+	  			<div class="modal fade" id="myModallog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  				<div class="modal-dialog" role="document">
+	  					<div class="modal-content">
+	  						<div class="modal-header">
+	  							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	  							<h4 class="modal-title text-center" id="myModalLabel">LOGIN DO ALUNO</h4>
+	  						</div>
+	  						<div class="modal-body">
+	  							<div class="container">
+	  								<div class="col-md-5">
+	  									<div class="row">
+	  										<form class="form-signin">
+
+	  											<label for="inputEmail" class="sr-only">MATRÍCULA</label>
+	  											<input type="email" id="inputEmail" class="form-control" placeholder="Digite Matrícula ou cpf" required autofocus><br>
+	  											<label for="inputPassword" class="sr-only">SENHA</label>
+	  											<input type="password" id="inputPassword" class="form-control" placeholder="Senha" required><br>
+	  											<button class="btn btn-sm btn-primary" type="submit">LOGAR</button>
+	  										</form>
+	  									</div> <!-- /container -->
+	  								</div>
+
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+	  		<script src="js/jquery-1.11.3.min.js"></script>
+	  		<script src="js/jquery.min.js"></script>
+	  		<script src="js/bootstrap.min.js"></script>
+	  	</body>
+	  	</html>
